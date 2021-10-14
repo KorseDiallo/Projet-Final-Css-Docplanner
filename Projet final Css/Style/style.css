@@ -1,0 +1,811 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-color: white;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* position: fixed; */
+}
+header .logo{
+    width:300px;
+    height: auto;
+}
+header .logo img{
+    width: 100%;
+    height: auto;
+}
+header nav .lien{
+    display: flex;
+    list-style-type: none;
+}
+
+ header nav .lien li{
+    margin: 20px;
+}
+
+header nav .lien li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+header nav .lien li a span{
+    color:#73d6f6;
+}
+.after_header{
+    width: 100%;
+    height: auto;
+}
+.after_header_img{
+    width: 200px;
+    height: auto;
+    margin: 0 900px;
+    margin-bottom: 50px;
+}
+.after_header h1{
+    text-align: center;
+    margin-bottom: 100px;
+    color:#73d6f6;
+    
+}
+.after_header1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.after_header1_bloc1{
+    width: 800px;
+    height: auto;
+    font-size: 30px;
+}
+.after_header_bloc1 p{
+    text-align: center;
+}
+.principal{
+    width: 100%;
+    height: 650px;
+    display:flex;
+    justify-content: space-around;
+}
+.bloc{
+    width: 500px;
+    height: 500px;
+}
+.bloc h1{
+    color:white;
+    margin-left: 100px;
+}
+.bloc1{
+    background-color:#64ccb2;
+    margin-left: 120px;
+}
+.bloc2{
+    background-color:#4383df;
+    margin-left: 8px;
+}
+.bloc3{
+    background-color:#323d49;
+    margin-right: 100px;
+}
+.icones{
+    width: 50px;
+    height: auto;
+    margin: 20px 100px;
+}
+.icones img{
+    width: 100%;
+    height: auto;
+}
+.patient{
+    width: 300px;
+    height: 200px;
+    margin:30px auto;
+}
+.patient p{
+    font-size: 35px;
+    color:white;
+}
+.listes{
+    width:145px;
+    height: auto;
+    margin:0 100px;
+}
+.liste{
+    width:145px;
+    height: auto;
+    margin:-40px 100px;
+}
+.list{
+    width:145px;
+    height: auto;
+    margin: 50px 100px;
+}
+.second_principal{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    margin-top: -50px;
+}
+.second_bloc1{
+    width:450px;
+    height: auto;
+    display:inline-block;
+    position:absolute;   
+    left: 130px;
+}
+.second_bloc1 p{
+    font-size: 40px;
+}
+.second_bloc2{
+    width:1000px;
+    height: auto;
+    display: inline-block;
+    position:absolute;
+    left:655px;
+}
+.BLOCK{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.second_bloc2 .BLOCK .bloc1{
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+}
+.second_bloc2 .BLOCK .bloc21{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc3{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc4{
+    width: 160px;
+    height: 30px;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc5{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc6{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc7{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc8{
+    width: 290px;
+    height: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc9{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc10{
+    width: 160px;
+    height: 30px;
+    margin-right: 736px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc11{
+    width: 200px;
+    height: 30px;
+    margin-top: -44px;
+    margin-left: 120px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc12{
+    width: 160px;
+    height: 30px;
+    margin-top: -44px;
+    margin-right: 100px;
+    margin-left: -200px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc13{
+    width: 160px;
+    height: 30px;
+    margin-top: -44px;
+    margin-right: 100px;
+    margin-left: -200px;
+    text-align: center;
+    font-size: 27px;
+}
+.third{
+    width: 100%;
+    height: 740px;
+    background-color:#e1f9f7;
+    margin-top: -130px;
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    /* overflow: hidden; */
+}
+.under_third1{
+    width: 650px;
+    height: 630px;
+    margin-left: 150px;
+    margin-top: 90px;
+   
+}
+.under_third2{
+    width: 700px;
+    height: 830px;
+    margin-right: 100px;
+}
+.under_third1 .third01{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.third01 p{
+    font-size: 40px;
+}
+.under_third1 .third02{
+    width: 100%;
+    height: auto;
+    padding:20px;
+}
+.third02 p{
+    font-size: 20px;
+}
+.under_third1 .third03{
+    width: 100%;
+    height: 367px;
+}
+.under_third1 .third03 img{
+    width: 60%;
+    height: auto;
+    margin-top: 70px;
+    
+
+}
+.under_third011{
+    width: 680px;
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.under_third011 .A1{
+    width: 290px;
+    height: 320px;
+    background-color:white;
+    border: 2px solid white;
+    margin-top: 50px;
+    text-align: center;
+}
+.under_third011 .A2{
+    width: 290px;
+    height: 320px;
+    background-color: white;
+    border:2px solid white;
+    text-align: center;
+}
+.under_third012{
+    width: 680px;
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.under_third012 .A3{
+    width: 290px;
+    height: 320px;
+    background-color:white;
+    border: 2px solid white;
+    margin-top: 10px;
+    text-align: center;
+}
+.under_third012 .A4{
+    width: 290px;
+    height: 320px;
+    background-color: white;
+    border:2px solid white;
+    margin-top: -40px;
+    text-align: center;
+
+}
+ .A1 .A1_image{
+    width: 40px;
+    height: auto;
+    margin:15px auto;
+}
+.A1 .A1_image img{
+    width: 100%;
+    height: auto;
+}
+.A1 .h1{
+    text-align: center;
+}
+.A1_paragraph{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.A1_paragraph p{
+    font-size: 22px;
+}
+.A2 .A2_image{
+    width: 40px;
+    height: auto;
+    margin:40px auto;
+}
+.A2 .A2_image img{
+    width: 100%;
+    height: auto;
+}
+.A2 .h1{
+    text-align: center;
+    margin:30px;
+}
+.A2_paragraph{
+    width: 100%;
+    height: auto;
+}
+.A2_paragraph p{
+    font-size: 22px;
+}
+
+.A3 .A3_image{
+    width: 40px;
+    height: auto;
+    margin:40px auto;
+}
+.A3 .A3_image img{
+    width: 100%;
+    height: auto;
+}
+.A3 .h1{
+    text-align: center;
+    margin:30px;
+}
+.A3_paragraph{
+    width: 100%;
+    height: auto;
+}
+.A3_paragraph p{
+    font-size: 22px;
+}
+
+.A4 .A4_image{
+    width: 40px;
+    height: auto;
+    margin:40px auto;
+}
+.A4 .A4_image img{
+    width: 100%;
+    height: auto;
+}
+.A4 .h1{
+    text-align: center;
+    margin:30px;
+}
+.A4_paragraph{
+    width: 100%;
+    height: auto;
+}
+.A4_paragraph p{
+    font-size: 22px;
+}
+
+.fourth{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.fourth .under_fourth1{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.fourth .under_fourth1 p{
+    font-size: 70px;
+    color:#0ef7e3;
+}
+.fourth .under_fourth2{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.fourth .under_fourth2 p{
+    font-size: 30px;
+}
+
+.fifth{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.cards{
+    width: 1140;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 480px;
+    height: 400px;
+    background-color:white;
+    margin-left: 15px;
+    margin-top: 20px;
+    border:2px solid white;
+    border-radius: 5px;
+}
+.card2{
+    width: 480px;
+    height: 400px;
+    background-color:white;
+    margin-left: 15px;
+    margin-top: 20px;
+    border:2px solid white;
+}
+.card3{
+    width: 480px;
+    height: 400px;
+    background-color:white;
+    margin-left: 15px;
+    margin-top: 20px;
+    border:2px solid white;
+}
+.card4{
+    width: 480px;
+    height: 400px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 25px;
+    border:2px solid white;
+}
+
+.card5{
+    width: 480px;
+    height: 400px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 25px;
+    border:2px solid white;
+}
+
+.card6{
+    width: 480px;
+    height: 400px;
+    background-color:white;
+    margin-left: 15px;
+    margin-top: 25px;
+    border:2px solid white;
+}
+.card7{
+    width: 480px;
+    height: 400px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-right: 1000px;
+    border:2px solid white;
+}
+.card1_image{
+    width: 100%;
+    height: 85%;
+}
+.card1_image img{
+    width: 100%;
+    height: 100%;
+}
+.card1_containt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card1_containt .pays1{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card1_containt .lien1{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.card1_containt .lien1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card2_image{
+    width: 100%;
+    height: 85%;
+}
+.card2_image img{
+    width: 100%;
+    height: 100%;
+}
+.card2_containt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card2_containt .pays2{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card2_containt .lien2{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.card2_containt .lien2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card3_image{
+    width: 100%;
+    height: 85%;
+}
+.card3_image img{
+    width: 100%;
+    height: 100%;
+}
+.card3_containt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card3_containt .pays3{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card3_containt .lien3{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.card3_containt .lien3 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card4_image{
+    width: 100%;
+    height: 85%;
+}
+.card4_image img{
+    width: 100%;
+    height: 100%;
+}
+.card4_containt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card4_containt .pays4{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card4_containt .lien4{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.card4_containt .lien4 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card5_image{
+    width: 100%;
+    height: 85%;
+}
+.card5_image img{
+    width: 100%;
+    height: 100%;
+}
+.card5_containt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card5_containt .pays5{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card5_containt .lien5{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.card5_containt .lien5 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card6_image{
+    width: 100%;
+    height: 85%;
+}
+.card6_image img{
+    width: 100%;
+    height: 100%;
+}
+.card6_containt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card6_containt .pays6{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card6_containt .lien6{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.card6_containt .lien6 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card7_image{
+    width: 100%;
+    height: 85%;
+}
+.card7_image img{
+    width: 100%;
+    height: 100%;
+}
+.card7_containt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card7_containt .pays7{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card7_containt .lien7{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.card7_containt .lien7 a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.avant_footer{
+    width: 100%;
+    height: 300px;
+}
+.avant_footer01{
+    width: 900px;
+    height: auto;
+    margin: 70px auto;
+    text-align: center;
+    padding: 20px;
+}
+.avant_footer01 p{
+    font-size: 50px;
+}
+.avant_footer02{
+    width: 400px;
+    height: 45px;
+    background-color:blue;
+    margin: -75px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.avant_footer02 a{
+    color:white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+}
+footer hr{
+    width: 100%;
+    border: 1px solid gainsboro;
+    margin-bottom: 35px;
+}
+footer p{
+    font-size: 20px;
+}
+footer p span{
+    color:blue;
+}
+
+
